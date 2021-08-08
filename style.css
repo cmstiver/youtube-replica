@@ -1,0 +1,152 @@
+body {
+  background-color: #181818;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Top Navbar */
+header {
+  background-color: #202020;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+.left-nav {
+  margin-left: 24px;
+  width: fit-content;
+}
+.left-nav img {
+  margin-left: 24px;
+}
+.material-icons-outlined {
+  color: white;
+}
+header img {
+  height: 24px;
+}
+#search {
+  background-color: #121212;
+  margin: auto;
+  width: 40%;
+  max-width: 600px;
+  height: 30px;
+  text-align: right;
+  border-radius: 3px;
+  overflow: hidden;
+}
+#search-button {
+  background-color: #323232;
+  border: 0;
+  height: 100%;
+  width: 60px;
+}
+#search-button span {
+  color: #6f6f6f;
+  font-size: 20px;
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 200px;
+}
+.right-nav img {
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* Main Content */
+#main {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/* Video */
+iframe {
+  width: 65vw;
+  height: calc(65vw / 1.77);
+}
+#video-and-comments {
+  width: 65vw;
+}
+#video-head {
+  display: flex;
+  width: inherit;
+  margin-top: 20px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+h1 {
+  font-size: large;
+  color: white;
+}
+h2 {
+  margin-top: 18px;
+  color: #9a9a9a;
+}
+#likes {
+  display: flex;
+  float: right;
+  align-items: flex-end;
+}
+#likes span {
+  vertical-align: middle;
+  margin-left: 18px;
+  margin-right: 5px;
+}
+#video-info {
+  display: flex;
+  justify-content: space-between;
+  border-top: #303030 solid 1px;
+  border-bottom: #303030 solid 1px;
+  padding: 15px 0;
+}
+#video-info h4 {
+  margin: 0;
+}
+#video-info button {
+  font-size: medium;
+  background-color: #c00;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 45px;
+  width: 130px;
+}
+#creator {
+  display: flex;
+}
+#creator img {
+  border-radius: 50%;
+}
+#creator div {
+  margin-left: 10px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+/* Recommended Feed */
+.recommended {
+  margin-left: 20px;
+  float: right;
+  width: 460px;
+}
+.r-video {
+  display: flex;
+  margin-bottom: 10px;
+}
+.r-video img {
+  width: 200px;
+  height: 112.22px;
+}
+.r-video div {
+  margin: 8px 0 0 10px;
+}
+h4 {
+  margin-top: 8px;
+  color: #9a9a9a;
+  font-size: smaller;
+  line-height: 18px;
+}
